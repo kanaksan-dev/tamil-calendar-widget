@@ -1,0 +1,42 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #213547;
+    background-color: #ffffff;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  /* Custom styles for the calendar widget testing */
+  .custom-calendar {
+    transition: transform 0.2s ease;
+  }
+  
+  .custom-calendar:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Override some default styles for better testing visibility */
+  .tamil-calendar-widget {
+    margin: 10px 0;
+  }
+  
+  .tamil-calendar-error {
+    background-color: #fef2f2 !important;
+    border: 2px solid #fca5a5 !important;
+  }
+  
+  .tamil-calendar-loading {
+    background-color: #f0f9ff !important;
+    border: 2px solid #93c5fd !important;
+  }

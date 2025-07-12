@@ -1,0 +1,69 @@
+.tamil-calendar-widget {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .tamil-calendar-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+  }
+  
+  .tamil-calendar-loader {
+    text-align: center;
+    color: #666;
+  }
+  
+  .tamil-calendar-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: tamil-calendar-spin 1s linear infinite;
+    margin: 0 auto 16px;
+  }
+  
+  @keyframes tamil-calendar-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .tamil-calendar-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: #fef2f2;
+    border-color: #fecaca;
+  }
+  
+  .tamil-calendar-error-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+  }
+  
+  .tamil-calendar-error-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .tamil-calendar-error-message {
+    color: #dc2626;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .tamil-calendar-widget {
+      max-width: 100%;
+    }
+  }
