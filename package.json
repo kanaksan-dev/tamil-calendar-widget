@@ -14,7 +14,7 @@
         "build": "tsc && vite build",
         "build:types": "tsc --emitDeclarationOnly",
         "preview": "vite preview",
-        "clean": "rimraf dist"
+        "clean": "rimraf node_modules package-lock.json dist && echo Project cleaned successfully!"
     },
     "keywords": [
         "react",
@@ -54,5 +54,5 @@
     "bugs": {
         "url": "https://github.com/kanaksan-dev/tamil-calendar-widget-docs/issues"
     },
-    "homepage": "https://github.com/kanaksan-dev/tamil-calendar-widget-docs#readme"
+    "homepage": "https://tamilcalendarwidget.netlify.app/"
 }
