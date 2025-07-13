@@ -1,6 +1,6 @@
 {
     "name": "@kanaksan/tamil-calendar-widget",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A reusable React widget for displaying Tamil daily calendar sheets",
     "main": "dist/index.cjs",
     "module": "dist/index.js",
